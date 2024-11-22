@@ -1,1 +1,56 @@
-/*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.left-side {
+  position: relative;
+  width: 50%;
+}
+.left-side img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2em;
+  text-align: center;
+}
+.card h1 {
+  font-size: 6dvh;
+  font-weight: bolder;
+}
+.card p {
+  font-size: 2dvh;
+  font-weight: lighter;
+}
+.card button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 3dvh;
+  border-radius: 3px;
+}
